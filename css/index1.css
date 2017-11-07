@@ -1,0 +1,723 @@
+.focusImg{
+	width: 1150px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+	height: 575px;
+
+}
+.focusImg ul{
+	/*position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	width: 1920px;
+	height: 420px;*/
+	position: relative;
+	width: 1150px;
+	height: 575px;
+}
+.focusImg ul li{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 575px;
+}
+.focusImg ul li a{
+	display: block;
+	width:100%;
+}
+.focusImg ul li img{
+	width: 100%;
+	height: 575px;
+}
+.focusImg ul li.on{
+	display: block;
+}
+.focusImg_main{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.focusImg_left,.focusImg_right{
+	position: absolute;
+	width: 30px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	display: block;
+	cursor: pointer;
+}
+.focusImg_left p,.focusImg_right p{
+	width: 100%;
+	height: 100%;
+	background: #BEBDBB;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.focusImg_left img,.focusImg_right img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 16px;
+	height: 30px;
+	margin-left: -8px;
+	margin-top: -15px;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.focusImg_left{
+	left: 0px;
+}
+.focusImg_right{
+	right: 0px;
+}
+.limit_buy{
+	width: 1150px;
+	margin: 0 auto;
+}
+.focusImg_span{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -30px;
+}
+.focusImg_span span{
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: #BEBDBB;
+	cursor: pointer;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	float: left;
+	display: inline;
+	border-radius: 4px;
+	margin-right: 8px;
+
+}
+.focusImg_span span.focusImg_span_one{
+	background: white;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.seckill_area{
+	width: 1150px;
+	margin: 0 auto;
+	height: 282px;
+	margin-bottom: 66px;
+
+}
+.seckill_area dl{
+	float: left;
+	width: 222px;
+	height: 282px;
+	margin-right: 104px;
+}
+.seckill_area dl.none{
+	margin-right: 0px;
+}
+.seckill_area dl dt{
+	width: 222px;
+	height: 222px;
+}
+.seckill_area dl dt img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.seckill_area dl dt div.active_label{
+	width: 75px;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	padding:0px;
+	font-size: 16px;
+	z-index: 10000;
+	line-height: 52px;
+	color: white;
+}
+.seckill_area dl dt div.active_label img{
+	height: 100%;
+	width: auto;
+
+	display: block;
+}
+/*.goods_list dl dt div.xk{
+	width: 50px;
+	background: url(http://ujipinwww.ufile.ucloud.com.cn/static/img/xk.png) no-repeat;
+	background-size:50px auto;  
+}*/
+.seckill_area dl dt div.sell_out{
+	width: 55px;
+	height: 55px;
+}
+.seckill_area dl dt div.sell_out p{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.4;
+	border-radius: 27px;
+}
+.seckill_area dl dt div.sell_out span{
+	position: absolute;
+	position: absolute;
+	left: 0px;
+	top: 2px;
+	width: 55px;
+}
+.seckill_area dl dd {
+	padding: 4px 16px 0px 16px;
+}
+.seckill_area dl dd h2{
+	font-size: 12px;
+	font-weight: normal;
+	color: #4A4A4A;
+	margin-bottom: 8px;
+	line-height: 16px;
+	height: 32px;
+	overflow: hidden;
+}
+.seckill_area dl dd span{
+	font-size: 14px;
+	color: #e74c3c;
+	margin-right: 16px;
+}
+.seckill_area dl dd em{
+	font-size: 14px;
+	color: #828282;
+	text-decoration: line-through;
+}
+.seckill_time{
+	margin-top: 110px;
+	margin-left: 54px;
+	margin-right: 90px;
+	float: left;
+	width: 109px;
+	_display:inline;
+}
+.seckill_time h3{
+	font-size: 24px;
+	color: #4F494B;
+	font-weight: normal;
+	margin-bottom: 21px;
+	letter-spacing:  3px;
+}
+.seckill_time h4{
+	font-size: 13px;
+	color: #9B9B9B;
+	line-height: 17px;
+	font-weight: normal;
+	margin-bottom: 22px;
+}
+.seckill_time p {
+	height: 26px;
+	line-height: 24px;
+}
+.seckill_time p span{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #4A4A4A;
+	border-radius: 3px;
+	text-align: center;
+}
+.seckill_time p em{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.limit_buy,.yx_activity{
+	width: 1150px;
+	margin: 0 auto;
+}
+.find_good{
+	width: 1150px;
+	margin: 0 auto;
+	font-size: 1px;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.find_good p{
+	line-height: 24px;
+	padding-right: 10px;
+	display: inline-block;
+	position: relative;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 12px;
+}
+.find_good p em{
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background: #4A4A4A;
+	left: 0px;
+	top: 3px;
+}
+.find_good p b{
+	font-size: 20px;
+	color: #4A4A4A;
+	line-height: 24px;
+}
+.find_good p img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 24px;
+	width: auto;
+}
+.find_good>a{
+	font-size: 13px;
+	color: #4A4A4A;
+	float: right;
+	color: #828282;
+	_diplay:inline;
+	margin-right: 7px;
+	line-height: 24px;
+	position: relative;
+	padding-right: 18px;
+}
+.find_good>a img{
+	position: absolute;
+	right: 0px;
+	width: 14px;
+	height: 14px;
+	top: 4px;
+}
+.find_good em{
+	font-size: 20px;
+}
+.find_good span{
+	font-size: 18px;
+	color: #828282;
+}
+
+
+.goods_list{
+	overflow: hidden;
+}
+.goods_list_b{
+	margin-bottom: 40px;
+}
+.goods_list dl{
+	width: 222px;
+	height: 340px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.goods_list a{
+	display: block;
+	float: left;
+}
+.goods_list dl dt{
+	width: 222px;
+	height: 222px;
+	position: relative;
+}
+.goods_list dl dt img{
+	display: block;
+	width: 222px;
+	height: 222px;
+}
+.goods_list dl dt>a.mask{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 20;
+	height: 100%;
+	background: #BEBDBB;
+	opacity: 0.1;
+	filter:alpha(opacity=10);
+}
+.goods_list dl dt div.active_label{
+	width: 75px;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	padding:0px;
+	font-size: 16px;
+	z-index: 10000;
+	line-height: 52px;
+	color: white;
+}
+.goods_list dl dt div.active_label img{
+	height: 100%;
+	width: auto;
+
+	display: block;
+}
+/*.goods_list dl dt div.xk{
+	width: 50px;
+	background: url(http://ujipinwww.ufile.ucloud.com.cn/static/img/xk.png) no-repeat;
+	background-size:50px auto;  
+}*/
+.goods_list dl dt div.sell_out{
+	width: 55px;
+	height: 55px;
+}
+.goods_list dl dt div.sell_out p{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.4;
+	border-radius: 27px;
+}
+.goods_list dl dt div.sell_out span{
+	position: absolute;
+	position: absolute;
+	left: 0px;
+	top: 2px;
+	width: 55px;
+}
+.goods_list dl dt>a.brand_name{
+	position: absolute;
+	z-index: 4;
+	left: 0px;
+	top: 100px;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+.goods_list dl dt>span.del{
+	width: 32px;
+	height: 32px;
+	background: url(http://ujipinwww.ufile.ucloud.com.cn/static/img/del.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 6;
+}
+.goods_list dl.none{
+	margin-right: 0px;
+}
+.goods_list dl dd{
+	padding-left: 16px;
+	padding-top: 11px;
+	padding-right: 16px;
+	height: 90px;
+}
+.goods_list dl dd.hov{
+	background: #F3F3F3;
+}
+.goods_list dl dd p.goods_introduce{
+	line-height: 16px;
+	font-size: 12px;
+	height: 32px;
+	margin-bottom: 8px;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow: hidden; 
+}
+.goods_list dl dd p.goods_introduce a{
+	color: #828282;
+}
+.goods_list dl dd p.goods_brand{
+	margin-bottom: 4px;
+	color: #828282;
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	overflow: hidden;
+}
+.goods_list dl dd p.goods_brand a{
+    color: #4A4A4A;
+    font-size: 13px;
+}
+.goods_discount{
+	margin-bottom: 6px;
+	display: block;
+	overflow: hidden;
+}
+.goods_discount span{
+	float: left;
+	display: inline;
+	color: white;
+	height: 16px;
+	width: 40px;
+	text-align: center;
+	line-height: 16px;
+	margin-right: 5px;
+}
+.goods_price{
+	height: 20px;
+	font-size: 12px;
+}
+.goods_price span.special_price{
+	color: #e74c3c;
+	margin-right: 15px;
+}
+.goods_price span.market_price{
+	color: #828282;
+	text-decoration:line-through;
+}
+
+
+
+.yx_activity{
+	height: 584px;
+	margin-bottom: 60px;
+}
+.yx_activity_cont{
+	height: 584px;
+}
+/*.yx_activity_cont .left{
+	width: 760px;
+	height: 100%;
+	float: left;
+}
+.yx_activity_cont .right{
+	width: 370px;
+	height: 100%;
+	position: relative;
+	float: right;
+}
+.yx_activity_cont .right a{
+	width: 100%;
+	height: 100%;
+}
+.yx_activity_cont .right dl{
+	position: absolute;
+	width: 218px;
+	left: 50%;
+	margin-left: -108px;
+	top: 164px;
+}
+.yx_activity_cont .right dl dt{
+	font-size: 36px;
+	color: white;
+	line-height: 42px;
+	margin-bottom: 70px;
+}
+.yx_activity_cont .right dl dd{
+	width: 124px;
+	height: 36px;
+	border:2px solid #FFFFFF;
+	margin: 0 auto;
+	border-radius: 3px;
+	position: relative;
+}
+.yx_activity_cont .right dl dd p{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	opacity: 0.1;
+}
+.yx_activity_cont .right dl dd h2{
+	font-weight: normal;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 16px;
+	line-height: 36px;
+	color: white;
+	text-indent: 22px;
+	background-image:url(../img/qgb.png);
+	background-position: 100px center; 
+	background-size: 6px 11px;
+	background-repeat: no-repeat;
+}
+.yx_activity_cont .right dl dd h2 a{
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+.yx_activity_cont .right dl dd:hover a{
+	color: #4A4A4A;
+}
+.yx_activity_cont .right dl dd:hover{
+	background: white;
+}
+.yx_activity_cont .right dl dd:hover h2{
+	background-image: url(../img/qgw.png);
+	color: #4A4A4A;
+}*/
+.yx_activity_cont a{
+	display: block;
+	float: left;
+	height: 282px;
+	width: 564px;
+}
+.yx_activity_cont a.l{
+	margin-right: 22px;
+}
+.yx_activity_cont a.t{
+	margin-bottom: 20px;
+}
+.yx_activity_cont a img{
+	width: 100%;
+	height: 100%;
+}
+.yx_activity_cont a.top{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.yx_activity_cont .mright{
+	margin-right: 19px;
+}
+.yx_activity_cont .right>img{
+	width: 100%;
+	height: 100%;
+}
+
+.hot_good{
+	width: 1150px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.activity_img{
+	width: 1150px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	height: 182px;
+}
+.activity_img a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.activity_img a img{
+	width: 100%;
+	height: 100%;
+}
+.wonderful_brand{
+	width: 100%;
+	margin:0 auto;
+	margin-bottom: 60px;
+	background: #F8F8F8;
+	padding-top: 30px;
+}
+.wonderful_brand .find_good{
+	margin-bottom: 30px;
+}
+.wonderful_brand_cont{
+	height: 280px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 45px;
+}
+.wonderful_brand_wrapper{
+	width: 1150px;
+	margin: 0 auto;
+}
+.wonderful_brand_wrapper dl{
+	padding: 18px 0px;
+	float: left;
+	margin-right: 20px;
+	width: 370px;
+	height: 184px;
+	background: #FFFFFF;
+}
+.wonderful_brand_wrapper dl dt{
+	width: 185px;
+	height: 185px;
+	float: left;
+}
+.wonderful_brand_wrapper dl dt img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.wonderful_brand_wrapper dl dd{
+	padding-left: 18px;
+	float: left;
+	width: 144px;
+}
+.wonderful_brand_wrapper dl dd h4{
+	margin-top: 42px;
+	line-height: 26px;
+	margin-bottom: 8px;
+}
+.wonderful_brand_wrapper dl dd h4 a{
+	font-size: 14px;
+	color: #4A4A4A;
+	font-weight: normal;
+}
+.wonderful_brand_wrapper dl dd h3{
+	margin-bottom: 8px;
+}
+.wonderful_brand_wrapper dl dd h3 a{
+	color: #828282;
+	font-size: 12px;
+	font-weight: normal;
+}
+.wonderful_brand_wrapper dl dd p {
+	height: 36px;
+	overflow: hidden;
+}
+.wonderful_brand_wrapper dl dd p a{
+	font-size: 12px;
+	color: #4A4A4A;
+	line-height: 18px;
+}
+.wonderful_brand_wrapper dl.nr{
+	margin-right: 0px;
+}
+
+
+.leaderboard{
+	height: 100px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.leaderboard img{
+	height: 100px;
+	width: 1920px;
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+}
+.leaderboard a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/*大促弹窗*/
+.dacutanchuang{
+	width: 425px;
+	height: 245px;
+	position: absolute;
+	display: none;
+	margin-left: -212px;
+	margin-top: -122px;
+	z-index: 20000;
+}
+.dacutanchuang img{
+	width: 100%;
+	height: 100%;
+}
+body{
+	position: relative;
+}
+
+.mark{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}

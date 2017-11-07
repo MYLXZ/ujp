@@ -2,143 +2,430 @@
 	margin: 0;
 	padding: 0;
 }
+li{
+	list-style: none;
+}
+ol{
+	list-style: none;
+}
 /*头部外部*/
-.header{
+.header-container{
 	height:70px; 
-	background: red;
 	border-bottom: 1px solid #cccccc;
 }
 
 /*头部内*/
-#head{
+.header-main{
 	height: 70px;
 	width: 1150px;
 	margin: 0 auto;
-	background: yellow;
 }
 
 /*logo*/
-#head .logo{
+.header-main .logo{
  height: 42px;
  width: 156px;
  float: left;
  margin-top: 16px;
 }
-#head .logo img{
+.header-main .logo img{
  height: 42px;
  width: 156px;
 }
 /*function-area功能区*/
-
-
-/*search-box
-.search-box{
-	width: 300px;
-	height: 32px;
-	background: green;
-}
-*/
-/*nav*/
-.nav-big{
-	height: 50px;
-	position: relative;
-
-}
-.nav{
-	height: 50px;
-	width: 1150px;
-	margin: 0 auto;
-	background: #foo;
-}
-.nav ul{
-	height: 50px;
-	width: 716px;
-	display: flex;
-	line-height: 50px;
-	float: left;
-}
-.nav ul li{
-	float: left;
-	list-style: none;
-	margin: 0 21px; 
-	position: relative;
-}
-.nav ul li>a{
-	display: block;
-	height: 50px;
-	text-decoration: none;
-	color: #4A4A4A;
-	font-size: 14px;
-} 
-.nav ul li p{
-	width: 70px;
-	height: 1px;
-	background: red;
-	display: none;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left:-35px; 
-}
-.nav ul li>a:hover{
-	color: red;
-}
-.nav span{
-	height: 50px;
+.function-area{
 	float: right;
-	line-height:50px;
-	margin-right: 20px;
+	margin-top: 18px;
 }
-.nav span a{
-	display: block;
-	height: 50px;
-	text-decoration: none;
-	font-size: 14px;
-
+.user-functions{
+	margin-bottom: 20px;
+	margin-top: 8px;
+	float: right;
 }
-/*menu-big*/
-.menu-big{
-	height: 50px;
-	width: 100%;
-	position: absolute;
-	background: red;
-	top:121px;
-	z-index: 999;
-	/*display: none;*/
+.user-functions .download-app{
+	padding-right: 16px;
 }
-.menu{
-	height: 50px;
-	width: 1150px;
-	margin: 0 auto;
-	background: yellow;	
-}
-.menu ul{
-	height: 50px;
-	width: 1150px;
-
-}
-.menu ul li{
-	list-style: none;
+.user-functions>ul>li{
+	padding-left: 20px;
+	width: 20px;
+	height: 17px;
+	padding-right: 20px;
 	float: left;
-	line-height: 50px;
-	margin: 0 20px;
+	position: relative;
+	display: list-item;
+	text-align: -webkite-match-parent;
 }
-.menu ul li a{
-	font-size: 14px;
-	text-decoration: none;
+.user-functions li a{
+	display: block;
 	color: #4A4A4A;
 }
-.menu ul li a:hover{
-	color: red;
+.user-functions .download-app a{
+	width: 14px;
+	height: 20px;
+	background:url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	background-position: -38px -84px;
+}
+.user-functions .download-app div{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	box-shadow: 0 0 2px #ccc;
+	left:-40px;
+	top:40px;
+	z-index: 1000;
+	display: none;
+}
+/*购物袋*/
+.user-functions .shopping-bag{
+	position: relative;
+}
+.user-functions .shopping-bag a{
+	margin: 0 auto;
+	width: 17px;
+	height: 19px;
+	background:url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	background-position: 0px -84px;
+}
+/*滚动购物袋*/
+.scroll-shop{
+    float: right;
+    margin: 0 auto;
+    width: 17px;
+    height: 19px;
+    background: url(../images/icon_bg.png) no-repeat;
+    background-size: auto 200px;
+    background-position: 0px -84px;
+    display: inline;
+    margin-right: 43px;
+    margin-top: 15px;
+    display: none;
+    position: relative;
+}
+/*个人中心*/
+.user-functions .user-center{
+	position: relative;
+}
+.user-functions .user-center>a{
+	width: 21px;
+	height: 18px;
+	background:url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	background-position: -17px -84px;
+}
+/*search-box搜索框*/
+.search-box{
+    float: right;
+    position: relative;
+    height: 32px;
+    background: #F8F8F8;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid #F8F8F8;
+}
+.search-box p{
+	width: 200px;
+	height: 34px;
+	display: inline-block;
+	position: relative;
+}
+.search-box input[type=text] {
+	width: 170px;
+    line-height: 34px;
+    border: 0px;
+    float: left;
+    font-size: 14px;
+    color: #4A4A4A;
+    height: 34px;
+    background: none;
+    outline: none;
+    text-indent: 16px;
+}
+.search-box span {
+    line-height: 34px;
+    float: right;
+    width: 30px;
+    height: 34px;
+}
+.search-box span img {
+    width: 19px;
+    height: 18px;
+    display: block;
+    margin-top: 7px;
+}
+.clear{
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	font-size: 0px;
+	clear: both;
+}
+/*nav*/
+.nav_bar_cont {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    display: none;
+    background: #F8F8F8;
+    z-index: 12;
+}
+.nav-bar-container{
+	height: 50px;
+	position: relative;
+	width: 100%;
+	background: white;
+	z-index: 99;
+/*	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 10;*/
+}
+.nav-bar{
+	width: 1150px;
+	margin: 0 auto;
+}
+/*.nav-bar>h2{
+	position: absolute;
+	left: 0px;
+	bottom: -3px;
+	width: 100%;
+	height: 3px;
+	background:url(../images/nav_bg.png) repeat-x left bottom;
+	z-index: 13;
+}*/
+.nav-bar ul{
+	line-height: 50px;
+	display: inline-block;
+}
+.nav-bar ul>li{
+	float: left;
+	margin-right: 44px;
+	text-align: center; 
+	color: #4A4A4A;
+	font-size: 14px;
+	display: inline;
+	height: 50px;
+	cursor: pointer;
+	position: relative;
+}
+.nav-bar ul>li>p{
+	background: #e74c3c;
+    display: block;
+    width: 70px;
+    height: 1px;
+    overflow: hidden;
+    font-size: 1px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-left: -35px;
+}
+.nav-bar ul>li>a{
+	color: #4A4A4A;
+}
+.nav-bar ul>li:hover>a{
+	color: #e74c3c;
+}
+.nav-bar-cont{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	display: none;
+	background: #F8F8F8;
+  	/*background: url(http://ujipinwww.ufile.ucloud.com.cn/static/img/navigation.png) repeat-x left top;*/
+  	z-index: 99;
+}
+.nav-bar-cont ol{
+	width: 1150px;
+	margin: 0 auto;
+	z-index: 99;
+}
+.nav-bar-cont ol li{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 42px;
+}
+.nav-bar-cont ol li a{
+	color: #4A4A4A;
+	font-size: 13px;
 }
 
-/*/*轮播图*/
-.banner-big{
-	height: 575px;
-	width: 100%;
+.nav-bar-cont ol li:hover a{
+	color: #e74c3c;
 }
-.baner{
-	height: 575px;
+.nav-bar ul>li ol{
+	position: absolute;
+	top: 114px;
 	width: 1150px;
-	background: green;
-}*/
+	height: 55px;
+	left: 0px;
+	display: none;
+	background: #F8F8F8;
+	text-align: center;
+  	background: url(http://ujipinwww.ufile.ucloud.com.cn/static/img/navigation.png) repeat-x left top;
+}
+/*联系客服*/
+#web-im-kf{
+	float: right;
+    line-height: 48px;
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+    padding-right: 24px;
+    cursor: pointer;
+    display: block;
+}
+
+
+.nav-bar ul>li.on>a{
+	color: #e74c3c;
+}
+.nav-bar ul>li ol li{
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 17px;
+	margin-right: 17px;
+}
+/*尾部*/
+.footer-container{
+	min-width: 1150px;
+	width: 100%;
+	height: 140px;
+	margin-top: 140px;
+	background: #F8F8F8;
+}	
+.footer-main{
+	width: 1150px;
+	margin:0 auto;
+	/*background:yellow;*/
+}
+.footer-help{
+	/*height: 25px;*/
+	padding-top: 26px;
+	overflow: hidden;
+	margin-bottom:32px;
+}
+.footer-help li{
+	float: left;
+	margin-right: 66px;
+}
+.footer-help li a{
+	display: block;
+	padding-left: 32px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #4A4A4A;
+}
+.footer-help li .about-ujp{
+	background: url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	background-position: 12px -133px;
+}
+.footer-help li .shopping-guide{
+	background: url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	background-position: -208px -132px;
+}
+.footer-help li .notification{
+	background: url(../images/notification.png) no-repeat;
+	background-size: 15px 20px;
+	background-position: 10px 2px;
+}
+.footer-help li .conmmon-problem{
+	background: url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	background-position: -108px -132px;
+}
+
+/*website-information*/
+
+.website-information{
+	margin-top: 32px;
+	/*background: green;*/
+	height: 52px;
+}
+.website-information p{
+	float: left;
+	height: 20px;
+	display: block;
+	font-size: 12px;
+	margin-top: 2px;
+	overflow: hidden;
+	
+}
+.website-information span{
+	padding: 0 22px;
+	border-right: 1px solid #4A4A4A;
+}
+.website-information .first{
+	padding-left: 10px;
+}
+.website-information .last{
+	padding: 0 22px;
+	border-right: none;
+}
+.website-information dl{
+	float: right;
+	width: 103px;
+	height: 19px;
+	margin-right: 10px;
+	display: inline;
+}
+.website-information dl dt{
+	line-height: 19px;
+	font-size: 12px;
+	float: left;
+	display: inline;
+}
+.website-information dl dd{
+	float: right;
+	margin-left: 20px;
+}
+.website-information dl .weichat{
+	width: 23px;
+	height: 19px;
+	background:url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	position: relative;
+	background-position: -90px -105px;
+}
+.website-information dl .weichat div{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	box-shadow: 0 0 10px #ccc;
+	left: -56px;
+	top:-140px;	
+	display: none;
+}
+.website-information dl .weichat div span{
+	position: absolute;
+	bottom: -10px;
+	overflow: hidden;
+	left: 50%;
+	margin-left: -7px;
+	background: url(../images/icon_bg.png) no-repeat;
+	background-size: auto 200px;
+	background-position: -44px -163px;
+	width: 14px;
+	padding-top: 0;
+	border:none;
+	height: 10px;
+	padding:0;
+}
+
+
+
+
+
+

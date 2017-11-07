@@ -1,19 +1,5 @@
 //nav下面横线鼠标移入移出
-$(function() {
-	$(".nav").delegate("li","mouseenter",function(){
-		var _index = $(this).index();
-		$(".nav p").eq(_index).show();
-
-	});
-	$(".nav").delegate("li","mouseleave",function(){
-		var _index = $(this).index();
-		$(".nav p").eq(_index).hide();
-	});	
-	
-
-
-//下拉菜单部分
-
+$(function() {		
 
 //轮播图
 var imgs = $("#banner li"),

@@ -20,7 +20,7 @@ li{
 	width: 1150px;
 	margin: 0 auto;
 	position: relative;
-	z-index: 9;
+	/*z-index: 9;*/
 
 }
 #banner li{
@@ -393,9 +393,10 @@ li{
 .footer-main{
 	width: 1150px;
 	margin:0 auto;
+	/*background:yellow;*/
 }
 .footer-help{
-	height: 25px;
+	/*height: 25px;*/
 	padding-top: 26px;
 	overflow: hidden;
 	margin-bottom:32px;
@@ -437,29 +438,32 @@ li{
 
 .website-information{
 	margin-top: 32px;
+	/*background: green;*/
+	height: 52px;
 }
 .website-information p{
 	float: left;
 	height: 20px;
+	display: block;
 	font-size: 12px;
 	margin-top: 2px;
 	overflow: hidden;
+	
 }
 .website-information span{
-	padding-right: 22px;
-	padding-left: 22px;
+	padding: 0 22px;
 	border-right: 1px solid #4A4A4A;
 }
 .website-information .first{
 	padding-left: 10px;
 }
 .website-information .last{
-	padding-left: 22px;
-	padding-right: 22px;
+	padding: 0 22px;
 	border-right: none;
 }
 .website-information dl{
 	float: right;
+	width: 103px;
 	height: 19px;
 	margin-right: 10px;
 	display: inline;
@@ -471,6 +475,7 @@ li{
 	display: inline;
 }
 .website-information dl dd{
+	float: right;
 	margin-left: 20px;
 }
 .website-information dl .weichat{
@@ -488,6 +493,7 @@ li{
 	box-shadow: 0 0 10px #ccc;
 	left: -56px;
 	top:-140px;	
+	display: none;
 }
 .website-information dl .weichat div span{
 	position: absolute;
