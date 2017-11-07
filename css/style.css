@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*头部外部*/
+.header{
+	height:70px; 
+	background: red;
+	border-bottom: 1px solid #cccccc;
+}
+
+/*头部内*/
+#head{
+	height: 70px;
+	width: 1150px;
+	margin: 0 auto;
+	background: yellow;
+}
+
+/*logo*/
+#head .logo{
+ height: 42px;
+ width: 156px;
+ float: left;
+ margin-top: 16px;
+}
+#head .logo img{
+ height: 42px;
+ width: 156px;
+}
+/*function-area功能区*/
+
+
+/*search-box
+.search-box{
+	width: 300px;
+	height: 32px;
+	background: green;
+}
+*/
+/*nav*/
+.nav-big{
+	height: 50px;
+	position: relative;
+
+}
+.nav{
+	height: 50px;
+	width: 1150px;
+	margin: 0 auto;
+	background: #foo;
+}
+.nav ul{
+	height: 50px;
+	width: 716px;
+	display: flex;
+	line-height: 50px;
+	float: left;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+	margin: 0 21px; 
+	position: relative;
+}
+.nav ul li>a{
+	display: block;
+	height: 50px;
+	text-decoration: none;
+	color: #4A4A4A;
+	font-size: 14px;
+} 
+.nav ul li p{
+	width: 70px;
+	height: 1px;
+	background: red;
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left:-35px; 
+}
+.nav ul li>a:hover{
+	color: red;
+}
+.nav span{
+	height: 50px;
+	float: right;
+	line-height:50px;
+	margin-right: 20px;
+}
+.nav span a{
+	display: block;
+	height: 50px;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+/*menu-big*/
+.menu-big{
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	background: red;
+	top:121px;
+	z-index: 999;
+	/*display: none;*/
+}
+.menu{
+	height: 50px;
+	width: 1150px;
+	margin: 0 auto;
+	background: yellow;	
+}
+.menu ul{
+	height: 50px;
+	width: 1150px;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	line-height: 50px;
+	margin: 0 20px;
+}
+.menu ul li a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #4A4A4A;
+}
+.menu ul li a:hover{
+	color: red;
+}
+
+/*/*轮播图*/
+.banner-big{
+	height: 575px;
+	width: 100%;
+}
+.baner{
+	height: 575px;
+	width: 1150px;
+	background: green;
+}*/
